@@ -1,0 +1,8 @@
+INSERT INTO HtmlPages (page_name, page_focus, page_title, page_filename, page_function, page_view_name, page_tabs_name, page_show_cat, page_show_nav, page_show_side, page_header, page_footer) VALUES ()
+
+<-- HOME PAGE -->
+INSERT INTO HtmlPages (page_name, page_focus, page_title, page_filename, page_function, page_view_name, page_tabs_name, page_show_cat, page_show_nav, page_show_side, page_header, page_footer) VALUES ("home", 0, "Welcome to the Homepage", "home.php", "homeView", "homeView.php", 'Home', 1, 0, 0, "DEFAULT PAGE HEADER", "DEFAULT PAGE FOOTER");
+
+<-- PAGE ONE -->
+
+INSERT INTO HtmlPages (page_name, page_focus, page_title, page_filename, page_function, page_view_name, page_tabs_name, page_show_cat, page_show_nav, page_show_side, page_header, page_footer) VALUES ("page1", 0, "Welcome to Page 1", "page1.php", "page1View", "page1view.php", 'Page One', 1, 1, 0, "DEFAULT PAGE 1 HEADER", "DEFAULT PAGE 1 FOOTER");

@@ -1,0 +1,28 @@
+/**
+ * Created by PhpStorm.
+ * User: Joseph
+ * Date: 23/04/2018
+ * Time: 18:03
+ */
+
+@charset "UTF-8";
+
+
+body {margin: 0px auto; background-color: lavenderblush;}
+
+footer {bottom:0; position:fixed; height: 3em; width: 100%;  background-color: lightsteelblue; border-top: 1px silver solid;}
+
+
+
+/* Navigation Bar */
+
+#navBarWrapper {text-align: center; height: 4em; margin: 0px; background-color: #b8daff; border-bottom: 1px silver solid;}
+#navBarWrapper ul {list-style-type:none; margin:0;padding:0;}
+#navBarWrapper ul li{display:inline-block; margin:1.2em 3em;}
+
+
+#catBarWrapper {text-align:center; height:2.2em; margin:0; background-color:#c3e6cb; border-bottom:1px silver solid;}
+#catBarWrapper ul {list-style-type:none; margin:0;}
+#catBarWrapper ul li{display:inline-block; margin:0.25em 3em;}
+
+#footerDate{text-align: center; width: 100%; padding-top: 0.5em;}
