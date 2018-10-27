@@ -85,73 +85,7 @@ abstract class HtmlPageAbstract
      * @var array
      */
     public $sideBarLinks = [];
-
-    /**
-     * @var array
-     */
-    public $pages = [
-      /*  'home' =>
-            [
-                'name' => 'home',
-                'focus' => false,
-                'title' => 'Welcome to the Homepage',
-                'filename' => 'home.php',
-                'funcname' => 'homeView',
-                'viewname' => 'homeView.php',
-                'cattabsname' => 'Home',
-                'showcattab' => true,
-                'shownavtab' => false,
-                'showsidebar' => false,
-                'header' => 'DEFAULT HOME PAGE HEADER',
-                'footer' => null,
-            ],
-        'page1' =>
-            [
-                'name' => 'page1',
-                'focus' => false,
-                'title' => 'Welcome to Page One',
-                'filename' => 'page1.php',
-                'funcname' => 'page1View',
-                'viewname' => 'page1View.php',
-                'cattabsname' => 'Page 1',
-                'showcattab' => true,
-                'shownavtab' => false,
-                'showsidebar' => false,
-                'header' => 'DEFAULT PAGE ONE HEADER',
-                'footer' => null,
-            ],
-        'page2' =>
-            [
-                'name' => 'page2',
-                'focus' => false,
-                'title' => 'Welcome to Page Two',
-                'filename' => 'page2.php',
-                'funcname' => 'page2View',
-                'viewname' => 'page2View.php',
-                'cattabsname' => 'Page 2',
-                'showcattab' => true,
-                'shownavtab' => false,
-                'showsidebar' => false,
-                'header' => 'DEFAULT PAGE TWO HEADER',
-                'footer' => null,
-            ],
-        'page3' =>
-            [
-                'name' => 'page3',
-                'focus' => false,
-                'title' => 'Welcome to Page Three',
-                'filename' => 'page3.php',
-                'funcname' => 'page3View',
-                'viewname' => 'page3View.php',
-                'cattabsname' => 'Page 3',
-                'showcattab' => true,
-                'shownavtab' => false,
-                'showsidebar' => false,
-                'header' => 'DEFAULT PAGE THREE HEADER',
-                'footer' => null,
-            ],*/
-        ];
-
+ 
     private function setHtmlTextFilePage($pageFocus)
     {
         foreach ($this->pages as $pageName => $v) {
